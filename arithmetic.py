@@ -20,7 +20,7 @@ def square(num):
 
 def cube(num):
     """Return the cube of a number"""
-    pass
+    return num ** 3
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
@@ -30,4 +30,4 @@ def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
     pass
 
-print square(2)
+print cube(2)
