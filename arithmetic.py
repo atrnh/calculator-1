@@ -12,7 +12,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Return the quotient of two numbers as a float"""
-    pass
+    return num1 / num2
 
 def square(num):
     """Return the square of a number"""
@@ -30,4 +30,4 @@ def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
     pass
 
-print multiply(2,2)
+print divide(2,2)
