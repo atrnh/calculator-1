@@ -16,7 +16,7 @@ def divide(num1, num2):
 
 def square(num):
     """Return the square of a number"""
-    pass
+    return num * num
 
 def cube(num):
     """Return the cube of a number"""
@@ -30,4 +30,4 @@ def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
     pass
 
-print divide(2,2)
+print square(2)
